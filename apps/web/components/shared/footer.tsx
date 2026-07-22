@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { motion } from 'motion/react';
-import { Terminal, Package, Github, ExternalLink, Heart } from 'lucide-react';
+import { Terminal, Package, ExternalLink, Heart } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface FooterProps {
@@ -136,7 +136,7 @@ export function Footer({ className, showPearProtocol = false, showHyperliquid = 
             </span>
           </p>
           <a
-            href="https://github.com/SiphoYawe"
+            href="https://siphoyawe.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 text-caption text-text-muted/50 hover:text-text-muted transition-colors"
@@ -147,7 +147,7 @@ export function Footer({ className, showPearProtocol = false, showHyperliquid = 
             <span className="font-medium text-text-muted/70 group-hover:text-accent-primary transition-colors">
               Sipho Yawe
             </span>
-            <Github className="w-3.5 h-3.5 text-text-muted/50 group-hover:text-accent-primary transition-colors" />
+            <ExternalLink className="w-3.5 h-3.5 text-text-muted/50 group-hover:text-accent-primary transition-colors" />
           </a>
         </div>
       </div>
